@@ -1,7 +1,10 @@
+# jekyll
 _site/
-*.swp
-*.~vsd
-\#*\#
-*~
-.DS_Store
+.sass-cache/
 Gemfile.lock
+
+# IDE
+.idea/
+
+# os
+.DS_Store
