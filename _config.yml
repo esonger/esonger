@@ -5,7 +5,7 @@ baseurl:
 url:
 date_format: "ordinal"
 title: 易松
-subtitle: "打码改变人生"
+subtitle: ""
 description: "esonger的个人博客"
 keywords: esonger, python, mysql, mongodb, redis, tornado
 favicon: /favicon.ico
@@ -97,3 +97,10 @@ lazy_load_disqus : false
 # ---------------- #
 google:
     analytics_id:
+
+# ---------------- #
+#   Other          #
+# ---------------- #
+
+# 首行缩进
+indent: '&emsp;&emsp;'
