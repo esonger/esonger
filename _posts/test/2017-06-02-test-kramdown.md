@@ -7,7 +7,7 @@ keywords: markdown
 date: 2017-06-02 14:14:52 +0800
 ---
 
-> 原文地址：[https://kramdown.gettalong.org/syntax.html](https://kramdown.gettalong.org/syntax.html)
+> 原文地址：<https://kramdown.gettalong.org/syntax.html>
 
 ### blank line
 
@@ -215,8 +215,33 @@ Maruku
 
 ### Math Blocks
 
-
 ### HTML Blocks
 
 ### Links and Images
+#### Automatic Links
+~~~
+url: <https://esonger.github.io>
+email: <zhaoqiang_zq@126.com>
+~~~
+效果如下：  
+url: <https://esonger.github.io>  
+email: <zhaoqiang_zq@126.com>
 
+#### Inline Links
+
+This is [a link](http://rubyforge.org) to a page.
+A [link](../test "local URI") can also have a title.
+And [spaces](/index.html)!
+
+#### Reference Links
+
+#### Link Definitions
+
+### Images
+
+
+~~~
+Here comes a ![smiley](../images/smiley.png)! And here
+![too](../images/other.png 'Title text'). Or ![here].
+With empty alt text ![](see.jpg)
+~~~
